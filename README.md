@@ -23,6 +23,7 @@ venv\scripts\activate.bat
 
 #### 3. Requirements
 ```bash
+cd ajax-systems
 pip install -r requirements.txt
 ```
 
@@ -43,7 +44,7 @@ python manage.py run
 *  **  **
 
 ## Fill the table with test data
-Submit your Endpoint request (Headers can be empty):
+Submit your Endpoint request (method POST, Headers can be empty):
 ```bash
 /api_v1/upload
 ```
